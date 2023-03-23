@@ -65,6 +65,10 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#mkdocs-serve-y-mkdocsyml">Mkdocs serve y mkdocs.yml</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#deploy-con-mkdocs">Deploy con mkdocs</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#github-pages">Github pages</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -103,6 +107,21 @@
 <p><img alt="Proyecto en vscode" src="../img/vscode.png" /></p>
 <h2 id="mkdocs-serve-y-mkdocsyml">Mkdocs serve y mkdocs.yml</h2>
 <p>Una vez hayamos creado nuestros archivos podemos ver como queda la página con <code>mkdocs serve</code></p>
+<p><img alt="mkdocs serve" src="../img/mkdocsserve.png" /></p>
+<p><img alt="mkdocs en firefox" src="../img/frfoxserve.png" /></p>
+<p>Como vemos nos falta la página de mkdocs ya que no la hemos añadido al nav. Para eso editamos el archivo mkdocs.yml. En este archivo podemos definir la configuración de la página como el nombre de, la url, la barra de navegación o el tema.</p>
+<p><img alt="mkdocs.yml" src="../img/yml.png" /></p>
+<h2 id="deploy-con-mkdocs">Deploy con mkdocs</h2>
+<p>Finalmente vamos a subir nuestra página a github pages. Generamos la página con <code>mkdocs build</code> que creará una carpeta llamada site.</p>
+<p>Esta carpeta la debemos subir a nuestro repositorio en github.</p>
+<p><img alt="mkdocs build" src="../img/build.png" /></p>
+<h2 id="github-pages">Github pages</h2>
+<p>Subimos la carpeta site a nuestro repositorio como mencionamos anteriormente</p>
+<p><img alt="carpeta subida" src="../img/gitpush.png" /></p>
+<p>En los ajustes de nuestro repositorio vamos a la seccion pages e indicamos cómo queremos crear nuestra página de pages.</p>
+<p><img alt="seccion pages" src="../img/pages.png" /></p>
+<p>Ya podremos acceder a nuestra página.</p>
+<p><img alt="Github pages en funcionamiento" src="../img/paginacreada.png" /></p>
               
             </div>
           </div><footer>
